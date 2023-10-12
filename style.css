@@ -7,7 +7,7 @@
     font-weight: normal;
 }
 :root{
-    --font-padrao:'Vogue', 'cursive';
+    --font-padrao: Vogue;
 }
 
 body, html {
