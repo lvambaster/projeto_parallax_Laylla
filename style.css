@@ -1,0 +1,118 @@
+@charset "UFT-8";
+
+
+@font-face {
+    font-family: 'Times New Roman', Times, serif;
+    src: url(font/Vogue.ttf) format('opentype');
+    font-weight: normal;
+}
+:root{
+    --font-padrao:'Vogue', 'cursive';
+}
+
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+    
+}
+
+/* efeito parallax*/
+div.titulo{
+    
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%; 
+    text-align: center; 
+    opacity: 50%;
+    
+
+    
+    
+}
+
+div.titulo span.titulo{
+    color: white;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family: var(--font-padrao);
+
+}
+.caixa1, .caixa2, .caixa3, .caixa4{
+    position: relative;
+     margin: 0;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+
+}
+
+
+.caixa1{
+    background-image: url(imagens/C0001.jpg);
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.caixa2{
+    background-image: url(imagens/C0061.jpg);
+    height: 100%;
+    background-size: 100%;
+    background-position: center;   
+
+}
+
+.caixa3{
+    background-image: url(imagens/C0009.jpg);
+    height: 100%;
+    background-size: 100%;
+    background-position: center;   
+
+}
+.caixa4{
+    background-image: url(imagens/C0061.jpg);
+    height: 100%;
+    background-size: 100%;
+    background-position: center;   
+}
+.conteudo1{
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+.conteudo2{
+  
+    background-color: white;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 59%;
+}
+iframe{ 
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+
+}
+
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+    margin: 0;
+}
+p{
+    text-align: justify;
+}
