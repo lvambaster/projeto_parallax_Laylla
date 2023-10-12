@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Times New Roman', Times, serif;
-    src: url(font/Vogue.ttf) format('opentype');
+    src: url(../font/Vogue.ttf) format('opentype');
     font-weight: normal;
 }
 :root{
@@ -87,6 +87,7 @@ div.titulo span.titulo{
     height: 100%;
     background-size: 100%;
     background-position: center;
+    
 
 }
 
@@ -132,3 +133,18 @@ h3{
 p{
     text-align: justify;
 }
+.audio {
+    padding: 10px;
+    position: absolute center;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -5px -5px 5px 5px rgba(0, 0, 0, 0.452);
+    margin: 0;
+    width: 100%;
+    height: 50px;
+}
+/*-----------------*/
+
+
+
