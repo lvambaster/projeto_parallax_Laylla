@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Times New Roman', Times, serif;
-    src: url(font/Vogue.woff) format('opentype');
+    src: url(Vogue.ttf) format('opentype');
     font-weight: normal;
 }
 :root{
