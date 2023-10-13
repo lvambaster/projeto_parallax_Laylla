@@ -2,12 +2,13 @@
 
 
 @font-face {
-    font-family: 'Times New Roman', Times, serif;
-    src: url(Vogue.ttf) format('opentype');
+    font-family: 'vogue';
+    src: url(Vogue.ttf) format('truetype');
     font-weight: normal;
+    font-style: normal;
 }
 :root{
-    --font-padrao: Vogue;
+    --font-padrao: vogue;
 }
 
 body, html {
