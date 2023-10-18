@@ -1,14 +1,17 @@
 @charset "UFT-8";
 
 
+
 @font-face {
-    font-family: 'vogue';
+    font-family: 'vogue' 'young';
     src: url(Vogue.ttf) format('truetype');
+    src: url(YoungSerif-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 :root{
     --font-padrao: vogue;
+    --font-logo: young;
 }
 
 body, html {
@@ -19,6 +22,9 @@ body, html {
     position: relative;
     z-index: 0;
     
+}
+a#brandlogo{
+    font-family: var(--font-logo);
 }
 
 /* efeito parallax*/
