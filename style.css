@@ -1,11 +1,16 @@
 @charset "UFT-8";
 
+@font-face {
+    font-family: 'young';
+    src: url(YoungSerif-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 @font-face {
     font-family: 'vogue' 'young';
     src: url(Vogue.ttf) format('truetype');
-    src: url(YoungSerif-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
