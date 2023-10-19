@@ -28,9 +28,23 @@ body, html {
     z-index: 0;
     
 }
+#navegacao{
+    
+    box-shadow: 3px 3px 3px 3px rgba(3, 3, 3, 0.116);
+}
 a#brandlogo{
+    padding: 0 0 0 25px;
+    text-shadow: 1px 1px black;
+    color: #777;
     font-family: var(--font-logo);
 }
+.galeria{
+    
+    width: 65%;
+    margin: auto;
+    display: block;
+}
+
 
 /* efeito parallax*/
 div.titulo{
