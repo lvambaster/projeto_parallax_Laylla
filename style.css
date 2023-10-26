@@ -152,14 +152,15 @@ a.linkfooter:hover{
 .conteudocontato{
    height: 500px;
 }
-footer{
-        position: absolute;
-        bottom:0;
+.footergaleria{
+    position: absolute;
+    bottom:0;
         left: 0;
-        width: 100%;
-      
-       
+        width: 100%;     
+
 }
+
+
 /*-----------------*/
 
 

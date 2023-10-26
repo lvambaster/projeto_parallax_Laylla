@@ -8,10 +8,11 @@
     <title>Contato</title>
 
 </head>
-<body>
+  <body>
     <header>
-        <nav class=" fixed-top navbar navbar-expand-sm navbar-light bg-light" >
+        <nav id="navegacao" class="fixed-top navbar navbar-expand-sm navbar-light bg-light" >
             <a id="brandlogo" href="index.html" class="navbar-brand">Laylla Fernandes</a>
+            
 
             <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">            
                 <span class="navbar-toggler-icon"></span>
@@ -19,9 +20,9 @@
 
             <div class="navbar-collapse collapse" id="nav-target">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="galeria.html"class="nav-link">Galeria</a></li>
-                    <li class="nav-item"><a href="contato.html"class="nav-link">Contato</a></li>
+                    <li class="nav-item text-uppercase"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item text-uppercase"><a href="galeria.html"class="nav-link">Galeria</a></li>
+                    <li class="nav-item text-uppercase"><a href="contato.html"class="nav-link">Contato</a></li>
                 </ul>
             </div>
 
@@ -29,10 +30,12 @@
         </nav>
 
     </header>
-
-    <div class="conteudocontato">
-
-    </div>
+    <main>
+        <div class="conteudo1 mt-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, odit obcaecati labore ea dolor officia, libero quas voluptates autem modi soluta, tenetur aperiam. Sunt consequuntur minima distinctio quas nobis reiciendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quas possimus temporibus atque iusto nesciunt asperiores a voluptates itaque ipsa nam, cumque alias numquam! Cumque deserunt vero delectus omnis quae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium in neque provident tempore, dolor ex, nam eos, soluta impedit hic debitis excepturi nesciunt nihil delectus quibusdam corrupti officiis minima odio?</p>
+        </div>
+    </main>
+    
 
     <script 
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -44,7 +47,11 @@
     crossorigin="anonymous"></script>
    
 
-    <footer id="navegacao" class="navbar-light bg-light">
+    
+    
+
+    
+    <footer class="footer navbar-fixed-bottom navbar-light bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-2 pt-3 nav-bar" >
@@ -53,28 +60,30 @@
                     </a>
                 </div>
                 <div class="col-md-4 ml-auto" >
-                    <p>Contato</p>
+                    <p class="mb-0">Contato</p>
                     <ul class="list-group">
                         <a class="linkfooter list-group-item-flush d-flex justify-content-center" href="#">
                             62 9 9471 0201                        </a>
                         <a class="linkfooter list-group-item-flush d-flex justify-content-center" href="#">laylladhullyoficial@gmail.com</a>
                     </ul>
                 </div>
-                <div class="col-md-4 ml-auto">
-                    <p>Midias Sociais</p>
-                    <section id="midias_sociais" class="container d-flex justify-content-center">
+                <div class="col-md-4 ml-auto d-flex justify-content-center pl-5">
+                    <section id="midias_sociais" class="container d-flex flex-row-reverse bd-highlight pt-4">
                         <a href="https://www.instagram.com/layllafernandes.of/" target="_blank"><img src="imagens/inst icon.png" alt="inst" class="w-50"></a>
                         <a href="https://www.youtube.com/@LayllaFernandes17" target="_blank"><img src="imagens/youtube icon.png" alt="youtube" class="w-50"></a>
                         <a href="https://www.facebook.com/laylla.dhully.1/" target="_blank"><img src="imagens/face icon.png" alt="face" class="w-50"></a>
-                       
+
                     </section>
                 </div>
 
 
-                
+
 
             </div>
 
         </div>
 
     </footer>
+
+   </body>
+</html>
